@@ -152,7 +152,7 @@ $(document).ready(function(){
     $('.george').click(function () {
         $('#member-information').fadeOut(0);
         $('#name').html("George Saieed");
-        $('#place').html("President | 3rd Year");
+        $('#place').html("Webmaster/Designer | 4th Year");
         $('#year').html("<strong>Major:</strong> Neuroscience");
         $('#churro').html("<strong>Favorite Churro Flavor:</strong> Chocolate");
         $('#fav-song').html("<strong>Audition Song:</strong> I'm So Sorry, by Imagine Dragons ");
@@ -165,20 +165,20 @@ $(document).ready(function(){
     $('.hummels').click(function () {
         $('#member-information').fadeOut(0);
         $('#name').html("Alex Hummels");
-        $('#place').html("Music Director | 2nd Year");
-        $('#year').html("<strong>Major:</strong> Computational & Applied Mathematics");
-        $('#weapon').html("<strong>Favorite Tree Type:</strong> Rainbow Eucalyptus");
+        $('#place').html("3rd Year");
+        $('#year').html("<strong>Major:</strong> Computational & Applied Mathematics, Statistics");
+        $('#weapon').html("<strong>Favorite Tree Type:</strong> Redwood");
         $('#churro').html("<strong>Favorite Churro Flavor:</strong> Chocolate");
         $('#quote').html("<strong>Favorite Quote:</strong> 'It’s difficult difficult lemon difficult' - Simon Foster, In the Loop");
         $('#fav-song').html("<strong>Audition Song:</strong> Take On Me, by a-ha");
-        $('#her-bio').html("Alex is a second-year CAM major from West Lafayette, Indiana. Outside of RfC, Alex likes to participate in every IM sport imaginable in place of working on his latest analysis pset. Alex is also a fox main in super smash bros melee and placed top three in doubles teaming with Yes at He Smust Be Stopped #2.");
+        $('#her-bio').html("Alex is a third-year CAM/Stats major from West Lafayette, Indiana. Outside of RfC, Alex enjoys playing IMs and having fun with GRAHAM HOUSE BEST HOUSE. Alex is a fox main in smash bros melee, a roy main in smash bros ultimate, and enjoys staying up late at night to watch adults play mafia.");
         $('#member-information').fadeIn(500);
     });
     
     $('.ale').click(function () {
         $('#member-information').fadeOut(0);
         $('#name').html("Ale Clark-Ansani");
-        $('#place').html("Vice President | 3rd Year");
+        $('#place').html("4th Year");
         $('#year').html("<strong>Major:</strong> Public Policy");
         $('#weapon').html("<strong>Favorite Tree Type:</strong> Birch");
         $('#churro').html("<strong>Favorite Churro Flavor:</strong> Caramel");
@@ -188,23 +188,10 @@ $(document).ready(function(){
         $('#member-information').fadeIn(500);
     });
 
-    $('.wenye').click(function () {
-        $('#member-information').fadeOut(0);
-        $('#name').html("Wen Ye");
-        $('#place').html("Business Director | 2nd Year");
-        $('#year').html("<strong>Major:</strong> Economics");
-        $('#weapon').html("<strong>Favorite Tree Type:</strong> Coconut Tree");
-        $('#churro').html("<strong>Favorite Churro Flavor:</strong> Chocolate");
-        $('#quote').html("<strong>Favorite Quote:</strong> 'You're saying it wrong: it's Levi-O-sa, not Levio-SA.' - Hermione Granger");
-        $('#fav-song').html("<strong>Audition Song:</strong> Just Haven't Met You Yet, by Michael Buble");
-        $('#her-bio').html("Hello, I hail from the sunny island of Singapore! I'm a huge fan of musicals and I grew up reading Harry Potter books. I also enjoy swimming!");
-        $('#member-information').fadeIn(500);
-    });
-
     $('.yu').click(function () {
         $('#member-information').fadeOut(0);
         $('#name').html("Alex Yu");
-        $('#place').html("Assistant Music Director | 3rd Year");
+        $('#place').html("4th Year");
         $('#year').html("<strong>Major:</strong> Economics");
         $('#weapon').html("<strong>Favorite Tree Type:</strong> Christmas");
         $('#churro').html("<strong>Favorite Churro Flavor:</strong> Vanilla");
@@ -214,114 +201,62 @@ $(document).ready(function(){
         $('#member-information').fadeIn(500);
     });
 
-    $('.rubin').click(function () {
-        $('#member-information').fadeOut(0);
-        $('#name').html("Alex Rubin");
-        $('#place').html("Artistic Director | 4th Year");
-        $('#year').html("<strong>Major:</strong> Philosophy");
-        $('#weapon').html("<strong>Favorite Tree Type:</strong> Palm");
-        $('#churro').html("<strong>Favorite Churro Flavor:</strong> Chocolate");
-        $('#quote').html("<strong>Favorite Quote:</strong> 'Any object, intensely regarded may be used as a gate of access to the incorruptible eon of the gods.' - James Joyce");
-        $('#fav-song').html("<strong>Audition Song:</strong> At Last, by Etta James");
-        $('#her-bio').html("Alex (Rubin, for short) is a philosophy major from upstate New York. In addition to serving as artistic director, he’s also involved in research, specifically whether or not he can bring his Nintendo Switch to rehearsal next quarter. Outside of Run for Cover, Alex writes indie pop and rap music.");
-        $('#member-information').fadeIn(500);
-    });
-
     $('.ben').click(function () {
         $('#member-information').fadeOut(0);
         $('#name').html("Ben Donvan");
-        $('#place').html("Social Chair | 3rd Year");
-        $('#year').html("<strong>Major:</strong> History");
-        $('#weapon').html("<strong>Favorite Tree Type:</strong> Silver Oak");
-        $('#churro').html("<strong>Favorite Churro Flavor:</strong> Bavarian Creme");
-        $('#quote').html("<strong>Favorite Quote:</strong> 'Party rock is in the hou.' - LMFAO");
-        $('#fav-song').html("<strong>Audition Song:</strong> Fly Me to the Moon, by Frank Sinatra");
-        $('#her-bio').html("Ben is a third year history major. He's from DC. He likes bad puns. And writing in the third person. (and also short bios, apparently).");
-        $('#member-information').fadeIn(500);
-    });
-
-    $('.ziv').click(function () {
-        $('#member-information').fadeOut(0);
-        $('#name').html("Ziv Kraus");
-        $('#place').html("Alumnus");
-        $('#year').html("<strong>Major:</strong> Psychology");
-        $('#weapon').html("<strong>Favorite Tree Type:</strong> Rain Tree");
-        $('#churro').html("<strong>Favorite Churro Flavor:</strong> Chocolate");
-        $('#quote').html("<strong>Favorite Quote:</strong> 'To the well organized mind, death is but the next great adventure' - Dumbledore");
-        $('#fav-song').html("<strong>Audition Song:</strong> Holy Grail, by Jay Z ft. Justin Timberlake");
-        $('#her-bio').html("Hi, I'm Ziv! My name's pronounced like Steve, but with a Z! In the little time that I don't spend making drum sounds with my mouth, I enjoy photography, cooking, and playing stack cup. Blurb is a weird word, whoever came up with it was probably high (on life, obviously).");
-        $('#member-information').fadeIn(500);
-    });
-
-    $('.yoo').click(function () {
-        $('#member-information').fadeOut(0);
-        $('#name').html("Alex Yoo");
         $('#place').html("4th Year");
-        $('#year').html("<strong>Major:</strong> Biology");
-        $('#weapon').html("<strong>Favorite Tree Type:</strong> Hibiscus Syriacus");
-        $('#churro').html("<strong>Favorite Churro Flavor:</strong> Chocolate");
-        $('#quote').html("<strong>Favorite Quote:</strong> 'Your Highness, I still have twelve battleships' - Yi Sun-Sin");
-        $('#fav-song').html("<strong>Audition Song:</strong> Can’t Take My Eyes Off Of You - Original by Ale");
-        $('#her-bio').html("Alex has been a part of Run for Cover since the beginning of his college career. During his third year, he faithfully served his civic duty as the group’s president. Alex majors in the biological sciences because it was the most convenient major for a pre-med. Because he is afraid to become a real adult, he will continue to dedicate 8 more years of his life to school.");
+        $('#year').html("<strong>Major:</strong> History");
+        $('#weapon').html("<strong>Favorite Tree Type:</strong> Histree");
+        $('#churro').html("<strong>Favorite Churro Flavor:</strong> I don't like sweet stuff cuz I hate fun");
+        $('#quote').html("<strong>Favorite Quote:</strong> 'It doesn't have to be like this / killer whales - carseat headrest");
+        $('#fav-song').html("<strong>Audition Song:</strong> Fly Me to the Moon, by Frank Sinatra");
+        $('#her-bio').html("Ben is a jaded fourth year. He is tired. So tired. He likes watching Minecraft let’s plays and nothing else. Growing up he thought he’d be a jerry but it turns out he’s a George. Oh wait he also likes environmentalism.");
         $('#member-information').fadeIn(500);
     });
 
     $('.morrison').click(function () {
         $('#member-information').fadeOut(0);
         $('#name').html("Daniel Morrison");
-        $('#place').html("Acacouncil Rep | 3rd Year");
+        $('#place').html("4th Year");
         $('#year').html("<strong>Major:</strong> Computer Science/ Near Eastern Languages & Civilizations");
         $('#weapon').html("<strong>Favorite Tree Type:</strong> Binary Search");
-        $('#churro').html("<strong>Favorite Churro Flavor:</strong> Caramel");
+        $('#churro').html("<strong>Favorite Churro Flavor:</strong> Bavarian Creme");
         $('#quote').html("<strong>Favorite Quote:</strong> 'I just don't think Hobbes was very concerned about donut transactions'");
         $('#fav-song').html("<strong>Audition Song:</strong> Like I'm Gonna Lose You, by Meghan Trainor & John Legend");
-        $('#her-bio').html("Dan is a 3rd year CS/NELC major from Falmouth, Massachusetts. When he's not at RfC rehearsal, you can find him in CSIL trying and failing to write decent code or in Reynolds drinking more coffee than can possibly be healthy. His roommates recently voted him 'Most Likely to Order from Sarpino's at 2 AM Before Starting a Civ Essay Due in 10 Hours.'");
+        $('#her-bio').html("Originally from Falmouth, Massachusetts, Dan's personal mission as music director is to insert at least one gratuitous tone cluster into every arrangement. When he's not at rehearsal, he's usually \"working\" on his \"thesis\" (read: watching Netflix with some papers open in another tab) or running the same Python script over and over again hoping to get different results. Ask him about type theory, Iranian revolutionary art, or why Dorian is the best mode.");
         $('#member-information').fadeIn(500);
     });
 
     $('.chavez').click(function () {
         $('#member-information').fadeOut(0);
         $('#name').html("Christopher Chavez");
-        $('#place').html("3rd Year");
+        $('#place').html("4th Year");
         $('#year').html("<strong>Major:</strong> Anthropology");
-        $('#weapon').html("<strong>Favorite Tree Type:</strong> Wood Wood");
-        $('#churro').html("<strong>Favorite Churro Flavor:</strong> Chocolate");
-        $('#quote').html("<strong>Favorite Quote:</strong> 'Poolside convo about your summer last night. ooh. yeah. about your summer last night.' - Frank Ocean");
-        $('#fav-song').html("<strong>Audition Song:</strong> Friday, by Rebecca Black");
-        $('#her-bio').html("I like shoes and Kanye West (and really lame bios, apparently. Though this is actually really all you need to know about Chris).");
-        $('#member-information').fadeIn(500);
-    });
-
-    $('.steve').click(function () {
-        $('#member-information').fadeOut(0);
-        $('#name').html("Stephen Howell");
-        $('#place').html("3rd Year | Exchange Student");
-        $('#year').html("<strong>Major:</strong> Physics");
-        $('#weapon').html("<strong>Favorite Tree Type:</strong> Yew *wink*");
-        $('#churro').html("<strong>Favorite Churro Flavor:</strong> Vanilla");
-        $('#quote').html("<strong>Favorite Quote:</strong> 'You did not wake up this morning just so you could be mediocre'");
-        $('#fav-song').html("<strong>Audition Song:</strong> If I Ain't Got You, by Alicia Keys");
-        $('#her-bio').html("Witty, sharp-tongued, and British. From the south coast of England, Steve is an exchange student from King's College London. Mr Howell can commonly be found at: his residence the Reg, killing it singing at a party, and occasionally he'll be in lectures. Steve is that guy who sings bass but can sing pretty high too, it's no biggie though because he doesn't like drawing attention to it *cough*. Being a newb exchange student in this academic year, Steve is completely not sore about the fact that we're not competing in ICCAs this year. At all. Warm and welcoming in a sweary way, Steve enjoys nothing more than doing psets last minute and then getting angry at himself for not doing them earlier.");
+        $('#weapon').html("<strong>Favorite Tree Type:</strong> Fire OG");
+        $('#churro').html("<strong>Favorite Churro Flavor:</strong> Care-uh-mel");
+        $('#quote').html("<strong>Favorite Quote:</strong> 'Anyone notice andrew n dan did the same audition song?' - Anonymous");
+        $('#fav-song').html("<strong>Audition Song:</strong> Strawberry Swing, by Frank Ocean");
+        $('#her-bio').html("Chris goes to bed around 11pm and wakes up around 7am, he doesn’t have office hours, he likes evanston a lot, whip appeal.");
         $('#member-information').fadeIn(500);
     });
 
     $('.michael').click(function () {
         $('#member-information').fadeOut(0);
         $('#name').html("Michael Hanna");
-        $('#place').html("2nd Year");
+        $('#place').html("Business Director | 3rd Year");
         $('#year').html("<strong>Major:</strong> Linguistics & Computer Science");
         $('#weapon').html("<strong>Favorite Tree Type:</strong> Banana Tree (Gros Michel cultivar)");
         $('#churro').html("<strong>Favorite Churro Flavor:</strong> Strawberry");
         $('#quote').html("<strong>Favorite Quote:</strong> 'Do people really have favorite quotes...?' - Me");
         $('#fav-song').html("<strong>Audition Song:</strong> Empty Chairs at Empty Tables, from Les Miserables");
-        $('#her-bio').html("Michael is a second-year from Massachusetts. He is passionate about languages, and loves traveling to places where other languages are spoken. In his free time, he enjoys playing games (indie freeware, like Cave Story or OFF), and reading books (like The Buried Giant).");
+        $('#her-bio').html("Michael is a third-year from Massachusetts. He is passionate about languages, and loves traveling to places where other languages are spoken. In his free time, he enjoys playing games (indie freeware, like Cave Story or OFF), and reading books (like The Buried Giant).");
         $('#member-information').fadeIn(500);
     });
 
     $('.aidan').click(function () {
         $('#member-information').fadeOut(0);
         $('#name').html("Aidan Coffey");
-        $('#place').html("Productivity Director | 2nd Year");
+        $('#place').html("3rd Year");
         $('#year').html("<strong>Major:</strong> Political Science & Public Policy");
         $('#weapon').html("<strong>Favorite Tree Type:</strong> Pine");
         $('#churro').html("<strong>Favorite Churro Flavor:</strong> Caramel");
@@ -334,7 +269,7 @@ $(document).ready(function(){
     $('.itai').click(function () {
         $('#member-information').fadeOut(0);
         $('#name').html("Itai Fru(it)chter");
-        $('#place').html("1st Year");
+        $('#place').html("2nd Year");
         $('#year').html("<strong>Major:</strong> idk i'm indecisive stop asking");
         $('#weapon').html("<strong>Favorite Tree Type:</strong> Dragon's Blood");
         $('#churro').html("<strong>Favorite Churro Flavor:</strong> PB&J");
@@ -347,13 +282,78 @@ $(document).ready(function(){
     $('.zack').click(function () {
         $('#member-information').fadeOut(0);
         $('#name').html("Zack Crenshaw");
-        $('#place').html("1st Year");
-        $('#year').html("<strong>Major:</strong> Linguistics");
+        $('#place').html("Music Director | 2nd Year");
+        $('#year').html("<strong>Major:</strong> Linguistics & Computer Science");
         $('#weapon').html("<strong>Favorite Tree Type:</strong> Northern Magnolia");
         $('#churro').html("<strong>Favorite Churro Flavor:</strong> Caramel");
         $('#quote').html("<strong>Favorite Quote:</strong> 'Consent is my ish.' – Benjamin Charles Prevor III");
         $('#fav-song').html("<strong>Audition Song:</strong> Electric Love, by BØRNS");
-        $('#her-bio').html("Zack is a first year Linguistics major who really believes he can get a job in that field. He is also taking the intro CS sequence because he is genuinely interested in the subject matter, and definitely not as back up. He's from Philadelphia, PA, and will secretly laugh at you every time you call a hoagie a sub. He enjoys the outdoors, Just Dance, melted cheese, piña coladas, and getting caught in the rain.");
+        $('#her-bio').html("Zack is a second year Linguistics and Computer Science major from Philadelphia, PA. He will secretly laugh at you every time you call a hoagie a sub. He enjoys the outdoors, Just Dance, melted cheese, piña coladas, and getting caught in the rain.");
+        $('#member-information').fadeIn(500);
+    });
+
+    $('.andrew').click(function () {
+        $('#member-information').fadeOut(0);
+        $('#name').html("Andrew Deng");
+        $('#place').html("Vice President | 1st Year");
+        $('#year').html("<strong>Major:</strong> you tell me");
+        $('#weapon').html("<strong>Favorite Tree Type:</strong> Evergreen");
+        $('#churro').html("<strong>Favorite Churro Flavor:</strong> Caramel");
+        $('#quote').html("<strong>Favorite Quote:</strong> 'Lesley I typed your symptoms into the thing up here and it says you might have network connectivity problems' - Andy Dwyer");
+        $('#fav-song').html("<strong>Audition Song:</strong> Like I'm Gonna Lose You, by Meghan Trainor");
+        $('#her-bio').html("Andrew is a first year with a little too much hometown pride for Boston. He is an undecided major on a pre-med track, though highly doubts he will survive. When not singing for RfC Andrew is often napping, playing basketball, or just singing in his room instead while his suite mates plot ways to shut him up. His most redeeming quality is his willingness to UberEats McDonald’s at any time of day.");
+        $('#member-information').fadeIn(500);
+    });
+
+    $('.tim').click(function () {
+        $('#member-information').fadeOut(0);
+        $('#name').html("Timothy Granzow");
+        $('#place').html("Assistant Music Director | 1st Year");
+        $('#year').html("<strong>Major:</strong> Geophysical Sciences and Environmental Science");
+        $('#weapon').html("<strong>Favorite Tree Type:</strong> Ginkgo");
+        $('#churro').html("<strong>Favorite Churro Flavor:</strong> Strawberry");
+        $('#quote').html("<strong>Favorite Quote:</strong> 'Sometimes science is more art than science, Morty' - Rick Sanchez ");
+        $('#fav-song').html("<strong>Audition Song:</strong> Hallelujah by Leonard Cohen");
+        $('#her-bio').html("Tim is a first year in RFC and at UChicago! He’s from New Jersey and loves a cappella, beat boxing, and just music in general! He was totally stoked to perform at the international ICCA’s a cappella championship competition with the boys. Outside of music, Tim loves nature and can often be found messing around in the local park.");
+        $('#member-information').fadeIn(500);
+    });
+
+    $('.jeremy').click(function () {
+        $('#member-information').fadeOut(0);
+        $('#name').html("Jeremy Lindenfeld");
+        $('#place').html("3rd Year");
+        $('#year').html("<strong>Major:</strong> Creative Writing");
+        $('#weapon').html("<strong>Favorite Tree Type:</strong> Red Mangrove");
+        $('#churro').html("<strong>Favorite Churro Flavor:</strong> Plain");
+        $('#quote').html("<strong>Favorite Quote:</strong> 'I'm gonna roll myself up in a big ball and die' – Frank Sinatra");
+        $('#fav-song').html("<strong>Audition Song:</strong> My Way, by Frank Sinatra");
+        $('#her-bio').html("Jeremy is a third year Creative Writing major from Miami, Florida. He is excited to be a new member of RfC. Outside of a capella, Jeremy likes to write music, do film photography, and adventure into nature. If you challenge him to Mario Kart for the Nintendo Switch, just know you’ll be feeling the wrath of Waluigi.");
+        $('#member-information').fadeIn(500);
+    });
+
+    $('.jonathan').click(function () {
+        $('#member-information').fadeOut(0);
+        $('#name').html("Jonathan Rockhill");
+        $('#place').html("President | 3rd Year");
+        $('#year').html("<strong>Major:</strong> Physics");
+        $('#weapon').html("<strong>Favorite Tree Type:</strong> Pando (the quaking aspen colony)");
+        $('#churro').html("<strong>Favorite Churro Flavor:</strong> Caramel");
+        $('#quote').html("<strong>Favorite Quote:</strong> 'Can I offer you an egg in this trying time?' - Frank Reynolds");
+        $('#fav-song').html("<strong>Audition Song:</strong> Corner of the Sky, from Pippins");
+        $('#her-bio').html("Jonathan is a third year and a proud New York City native. When not singing, he is usually working on something that involves coding. When not doing that, he can be found playing ultimate, playing a board game, exploring Chicago, cooking something delicious or mixing a cocktail with his friends (he’s a certified bartender!).");
+        $('#member-information').fadeIn(500);
+    });
+
+    $('.chase').click(function () {
+        $('#member-information').fadeOut(0);
+        $('#name').html("Chase Leito");
+        $('#place').html("Artistic Director | 1st Year");
+        $('#year').html("<strong>Major:</strong> Sociology");
+        $('#weapon').html("<strong>Favorite Tree Type:</strong> Maple");
+        $('#churro').html("<strong>Favorite Churro Flavor:</strong> Caramel");
+        $('#quote').html("<strong>Favorite Quote:</strong> 'You cannot escape the responsibility of tomorrow by evading it today'- Abraham Lincoln");
+        $('#fav-song').html("<strong>Audition Song:</strong> Stand Up For Love, by Destiny's Child");
+        $('#her-bio').html("Chase is a first year from Arizona, one of the hottest states in the country. He is very excited to be a new member of R of C. Chase enjoys exploring parts of the city, being in ACSA, and watching Netflix.");
         $('#member-information').fadeIn(500);
     });
    
