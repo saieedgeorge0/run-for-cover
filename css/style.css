@@ -1,12 +1,13 @@
 body {
-    background: #002503;
-    color: white;
+    background: #FFACAC;
+    color: black;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 button:focus, input:focus, textarea:focus {
     outline: 0;
 }
+
 
 .rfc-logo {
     height: 150px;
@@ -15,12 +16,12 @@ button:focus, input:focus, textarea:focus {
 }
 
 .link {
-    color: white;
+    color: black;
     font-weight: 600;
 }
 
 .link:hover {
-    color: white;
+    color: black;
 }
 
 .last {
@@ -32,7 +33,7 @@ button:focus, input:focus, textarea:focus {
     height: 0;
     border-left: 325px solid transparent;
     border-right: 325px solid transparent;
-    border-top: 325px solid rgba(255,255,255,.11);
+    border-top: 325px solid rgba(255,255,255,.21);
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -48,7 +49,7 @@ button:focus, input:focus, textarea:focus {
     height: 0;
     border-left: 175px solid transparent;
     border-right: 175px solid transparent;
-    border-top: 175px solid rgba(255,255,255,.07);
+    border-top: 175px solid rgba(255,255,255,.17);
     -webkit-transform: rotate(-135deg);
     -moz-transform: rotate(-135deg);
     -ms-transform: rotate(-135deg);
@@ -69,7 +70,7 @@ button:focus, input:focus, textarea:focus {
 }
 
 #divider {
-    border: solid 3px white;
+    border: solid 3px black;
     width: 0px;
     height: 90%;
     margin: 0 auto;
@@ -79,7 +80,7 @@ button:focus, input:focus, textarea:focus {
 .circle {
     width: 50px;
     height: 50px;
-    background: white;
+    background: black;
     border-radius: 50%;
     position: absolute;
     align-self: center;
@@ -88,7 +89,7 @@ button:focus, input:focus, textarea:focus {
 }
 
 .icos {
-    background: white;
+    background: black;
     border-radius: 50%;
     position: absolute;
     align-self: center;
@@ -111,6 +112,7 @@ button:focus, input:focus, textarea:focus {
     -ms-transform: translateY(-25vh) translateY(1px);
     -o-transform: translateY(-25vh) translateY(1px);
     transform: translateY(-25vh) translateY(1px);
+    color: white;
     background: none;
 }
 
@@ -128,6 +130,7 @@ button:focus, input:focus, textarea:focus {
     -ms-transform: translateY(25vh);
     -o-transform: translateY(25vh);
     transform: translateY(25vh);
+    color: white;
     background: none;
 }
 
@@ -137,6 +140,7 @@ button:focus, input:focus, textarea:focus {
     -ms-transform: translateX(2px) translateY(1px);
     -o-transform: translateX(2px) translateY(1px);
     transform: translateX(2px) translateY(1px);
+    color: white;
     background: none;
 }
 
@@ -219,7 +223,7 @@ button:focus, input:focus, textarea:focus {
 
 .selected {
     height: 0px;
-    border: solid 2px white;
+    border: solid 2px black;
     margin: 0 auto;
     padding: 0px;
     margin-top: 3px;
@@ -455,6 +459,7 @@ button:focus, input:focus, textarea:focus {
 }
 
 #divid {
+    border-color: black;
     padding: 0px;
     margin-top: -1px;
     margin-bottom: 8px;
@@ -490,7 +495,7 @@ strong {
 #name1, #email1, #message {
     background: rgba(0,0,0,0);
     border: none;
-    border-bottom: solid 1px white;
+    border-bottom: solid 1px black;
     width: 100%;
     margin-bottom: 10px;
     border-radius: 0px;
@@ -499,13 +504,13 @@ strong {
 #submit_button {
     border: none;
     background: rgba(0,0,0,0);
-    border-bottom: dotted 3px white;
+    border-bottom: dotted 3px black;
     float: right;
     border-radius: 0px;
 }
 
 #submit_button:hover {
-    border-bottom: solid 3px white;
+    border-bottom: solid 3px black;
 }
 
 #thanks { 
@@ -533,7 +538,7 @@ strong {
 }
 
 .mobile-menu {
-    color: white;
+    color: black;
     position: absolute;
     top: 30px;
     right: 30px;
@@ -602,7 +607,7 @@ strong {
 .code {
     background: rgba(0,0,0,0);
     border: none;
-    border-bottom: solid 1px white;
+    border-bottom: solid 1px black;
     width: 100%;
     margin-bottom: 10px;
     border-radius: 0px;
@@ -613,13 +618,13 @@ strong {
     float: right;
     border: none;
     background: rgba(0,0,0,0);
-    border-bottom: dotted 3px white;
+    border-bottom: dotted 3px black;
     float: right;
     border-radius: 0px;
 }
 
 .download:hover {
-    border-bottom: solid 3px white;
+    border-bottom: solid 3px black;
 }
 
 

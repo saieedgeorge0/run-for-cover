@@ -145,7 +145,7 @@ $(document).ready(function(){
         $(this).css("transform", "scale(1.8)");
         $(this).css("z-index", "10");
         $('.person').css("border", "none"); 
-        $(this).css("border", "solid 3px white");
+        $(this).css("border", "solid 3px black");
         $("html, body").animate({ scrollTop: $(document).height() }, 200);
     });
     
